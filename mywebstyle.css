@@ -1,0 +1,141 @@
+/box-sizing : border-box;}
+  
+body {
+    font-family: arial, sans-serif;
+	color:black;
+	height:auto;
+}
+
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:lightseagreen;
+	text-align : center;
+	color:white;
+}
+ .topnav {
+	 overflow:hidden;
+	 background-color:#ccc;
+	 position:relative;
+	 top:0;
+	 display:flex;
+	 justify-content:space-between;
+	 }
+
+.topnav a{
+	float:left;
+    display:inline-block;
+    padding:10px;
+	margin:auto;
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	text-transform:uppercase;
+	transition:1s ease;
+	}
+.topnav a:hover{
+	  text-decoration:underline white;
+       color:white;
+	   border-radius:5px;
+	   background-color:#aaa;
+}
+.topnav a.active {
+	background-color:black;
+	text-decoration:underline white;
+	 color:white;
+	 border-radius:5px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+	font-weight:bold; 
+	
+}	   
+.btn {
+  float:right;
+  color: white;
+  margin:  0;
+  border-radius:5px;
+  outline:none;
+  cursor: pointer;
+  background-color:#ccc; 
+border:none;  
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.contact {
+	text-align:center;
+	font-weight:bold;
+	
+}
+.column{
+	float:left;
+	width:100%;
+}
+.left{
+	width:40%;
+	}
+	
+.right{
+	width:60%;
+   height: 200px;
+}
+.hide{
+	width:auto;
+   height: 80px;
+	overflow:hidden;
+}
+
+.row::after{
+	clear:both;
+	display:table;
+	content:"";
+}
+img{
+	
+	 width: 80%;
+     height:250px;
+
+}
+.more-btn{
+	background-color:lightseagreen;
+	color:white;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+	border:1px solid lightseagreen;
+	border-radius:5px;
+	cursor:pointer;
+}
+.more-btn:hover{
+	background-color:seagreen;
+	border:1px solid seagreen;
+}
+.pagination {
+    display: flex;
+  justify-content:center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-align:center;
+}
+.pagination a :hover{
+	text-decoration:underline;
+	color:blue;
+}
+
